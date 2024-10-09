@@ -17,6 +17,6 @@ cask "spotube" do
 
   zap trash: [
     "~/Library/Application Scripts/oss.krtirtho.spotube",
-    "~/Library/Containers/oss.krtirtho.spotube",
+    "~/Library/Application Support/oss.krtirtho.spotube",
   ]
 end
