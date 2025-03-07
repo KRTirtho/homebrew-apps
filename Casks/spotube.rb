@@ -1,6 +1,6 @@
 cask "spotube" do
-  version "3.9.0"
-  sha256 "c30208298f9b98c2598a073600afd0320d78daebd9f83e8b39d77379d24ce5ff"
+  version "4.0.0"
+  sha256 "89e951747f83d5076b287e0ec5015dc3aae9cd4441b3f7517ffb329d2fd5add9"
 
   url "https://github.com/KRTirtho/spotube/releases/download/v#{version}/Spotube-macos-universal.dmg",
       verified: "github.com/KRTirtho/spotube/"
@@ -19,4 +19,6 @@ cask "spotube" do
     "~/Library/Application Scripts/oss.krtirtho.spotube",
     "~/Library/Application Support/oss.krtirtho.spotube",
   ]
+
+  depends_on formula: "yt-dlp", optional: true
 end
