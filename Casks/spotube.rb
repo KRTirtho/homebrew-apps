@@ -20,5 +20,5 @@ cask "spotube" do
     "~/Library/Application Support/oss.krtirtho.spotube",
   ]
 
-  depends_on formula: "yt-dlp", optional: true
+  depends_on formula: "yt-dlp"
 end
